@@ -41,7 +41,7 @@ LIMIT 10;
 ```
 
 Here is the breakdown of the top paying jobs for data analysis:
-![top paying jobs](assets\image.png)
+![top paying jobs](assets/image.png)
 
 ### 2. Top Paying Skills
 
@@ -71,7 +71,7 @@ ORDER BY salary_year_avg DESC;
 ```
 
 here is the breakdown of the top paying skills for Data Analyst roles:
-![top_paying_skills](assets\image1.png)
+![top_paying_skills](assets/image1.png)
 
 ### 3. In-demand Skills
 
@@ -91,7 +91,7 @@ FROM top_5_skills_table
 ```
 Here is the breakdown of the most indemand skills right now (regardless of the job, great insight for someone who hasn't picked up a clear path yet)
 
-![in_demand_skils](assets\image2.png)
+![in_demand_skils](assets/image2.png)
 
 ### 4. Skills based on salary
 
@@ -112,7 +112,7 @@ ORDER BY top_5_skills_table.salary_year_avg DESC
 LIMIT 5;
 ```
 Here is the breakdown of the top 5 skills which are based on salary:
-![top_5_salary_skills](assets\image3.png)
+![top_5_salary_skills](assets/image3.png)
 
 ### 5. Optimal skill to learn
 Finally; from the demand skill and salary, this query aimed to identify what skills are in high demand at the same time high salary. This will highlight what skills need to be improved.
@@ -138,7 +138,7 @@ LIMIT 25;
 ```
 Here is the breakdown image for the most optimal skills to learn:
 
-![most_optimal_skills](assets\image4.png)
+![most_optimal_skills](assets/image4.png)
 
 # The Result:
 
