@@ -1,55 +1,33 @@
-# SQL Data Job Market Analysis 💼🔍
+# SQL Data Job Market Analysis
 
-A SQL-based data analysis project exploring the **2024 job market for data roles** — identifying top-paying positions, in-demand skills, and where high salaries and demand intersect. Built while learning **PostgreSQL**.
+I built this while learning PostgreSQL. The idea was to use real job posting data from 2024 to answer questions I actually cared about as someone thinking about the job market, specifically what skills pay well and what is actually in demand.
 
-## Overview
+All the SQL queries are in: [/project_sql](/project_sql/)
 
-Using a structured dataset of data job postings, this project runs a series of SQL queries to answer key questions about the data job landscape — helping job seekers understand which skills to prioritise and which roles offer the best compensation.
+## Questions I tried to answer
 
-All SQL queries are located in: [`/project_sql`](/project_sql/)
+1. What are the top-paying data jobs?
+2. What skills do those high-paying roles actually ask for?
+3. Which skills come up most often across all data job postings?
+4. Which skills are linked to higher salaries?
+5. What is the most useful thing to learn if you want high demand and high pay?
 
-## Key Questions Answered
+## What I found
 
-1. 💰 What are the **top-paying data analyst jobs**?
-2. 🔧 What **skills** are required for the highest-paying roles?
-3. 📈 Which skills are **most in-demand** across all data job postings?
-4. ✨ Which skills are associated with **higher salaries**?
-5. 🎯 What are the **most optimal skills to learn** (high demand + high pay)?
+Python, SQL, and cloud platforms like AWS and Azure kept coming up as the best combination to have. Senior data engineering and ML engineering roles paid the most, but even mid-level analyst roles paid well when cloud skills were on the CV.
 
-## Tech Stack
+## Built with
 
-| Tool | Purpose |
-|------|---------|
-| SQL (PostgreSQL) | Data querying and analysis |
-| PostgreSQL | Database engine |
-| VS Code / DBeaver | Query development environment |
+- PostgreSQL
+- SQL
+- VS Code and DBeaver
 
-## Repository Structure
+## Running it yourself
 
-```
-SQL_Project_Data_Job_Analysis/
-├── project_sql/      # SQL query files (organised by question)
-├── data/             # Source dataset
-└── README.md
+```bash
+git clone https://github.com/gauravnaudiyal/SQL_Project_Data_Job_Analysis.git
 ```
 
-## Getting Started
+Set up a PostgreSQL database, import the dataset from `/data`, then open the query files in `/project_sql` and run them in order.
 
-1. Clone the repo:
-   ```bash
-   git clone https://github.com/gauravnaudiyal/SQL_Project_Data_Job_Analysis.git
-   ```
-2. Set up PostgreSQL and import the dataset
-3. Open the query files in `/project_sql` and run them in your SQL editor
-
-## Sample Insight
-
-> **Python**, **SQL**, and **cloud platforms (AWS, Azure)** consistently appear as the most in-demand and highest-paying skills across data roles — making them the most optimal to learn for aspiring data professionals.
-
-## Context
-
-Built as a hands-on SQL learning exercise to understand the data job market while sharpening database querying skills. Especially relevant for exploring roles in data strategy, product management, and tech consulting.
-
----
-
-*Developed by [Gaurav Naudiyal](https://github.com/gauravnaudiyal) — MSc Computer Science, Trinity College Dublin*
+Developed by Gaurav Naudiyal.
